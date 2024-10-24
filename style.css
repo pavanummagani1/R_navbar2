@@ -66,6 +66,9 @@ button{
     font-weight: 600;
     margin: 15px;
 }
+button:hover{
+    background-color: grey;
+}
 p{
     font-size: 1.3em;
     margin: 20px;
