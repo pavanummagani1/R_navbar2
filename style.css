@@ -43,6 +43,26 @@ header{
 .hamburger{
     display: none;
 }
+#checkbox{
+    display: none;
+}
+.sideNavbar>a{
+    color: #fff;
+    margin-bottom: 20px;
+    display: block;
+}
+.sideNavbar{
+    height: 100vh;
+    margin-top: 100px;
+    width: 50vw;
+    padding: 20px;
+    background-color: #000;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top: -25px;
+    display: none;
+}
 
 .banner-section{
     background-image: url('./mother-daughter-playing-with-toys6.jpg');
@@ -102,5 +122,8 @@ p{
         top: 50%;
         left: 50%;
         transform: translate(-50% , -50%);
+    }
+    #checkbox:checked+.sideNavbar{
+        display: block;
     }
 }
